@@ -880,10 +880,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: auto;
-        padding-right: auto;
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
