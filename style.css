@@ -747,12 +747,18 @@ h4 {
     margin-bottom: 24px;
     margin:auto;
 }
-
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+.formulaire-conteneur{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
+.portfolio-row {
+    margin:auto;
+}
+.col-sm-6 {
+    margin-bottom: 30px;
+}
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -796,9 +802,11 @@ h4 {
 .ltc-white {
     color: #FFFFFF!important;
 }
-.col-sm-12 p {
-    padding-top: 15px;
-    padding-bottom: 16px;
+.col-sm-12 {
+    padding:30px;
+}
+.col-sm-12 h1{
+    padding-bottom: 20px;
 }
 
 .ltc-white:hover {
@@ -1050,3 +1058,12 @@ h4 {
         text-align: center;
     }
 }
+@media (max-width: 767px) {
+    .portfolio-row img{
+        max-width: 320px;
+    }}
+
+
+
+    
+    
