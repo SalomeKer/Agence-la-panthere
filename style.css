@@ -1061,3 +1061,14 @@ h4 {
     .portfolio-row img{
         max-width: 320px;
     }}
+
+
+    @media (max-width: 767px) {
+        .lien-footer ul, li{
+            display: flex;
+            flex-direction: column;
+            padding: 0%;
+        }
+    }
+
+
